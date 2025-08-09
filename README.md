@@ -22,7 +22,7 @@ O modelo que é implementado desde a década de 1990 assume esses dois tipos de 
 - Dimensão: Modelo de tabela responsável por armazenar as informações básicas das aplicações. No contexto de e-commerce, por exemplo, seria uma tabela com as informações dos produtos, clientes, fornecedores, métodos de pagamento, etc. São dados que não são modificados com tanta recorrência.
 - Fato: Tabela com todas as informações de todas as atualizações que são feitas dentro do negócio. Por exemplo, uma tabela de transações, pedidos, movimentações de estoque, etc.
 
-![Star Schema - Exemplo Databricks](assets\star_schema_databricks.png)
+![Star Schema - Exemplo Databricks](assets/star_schema_databricks.png)
 fonte: Databricks
 
 <hr>
@@ -35,7 +35,7 @@ Assim, cada dimensão possui as informações relevantes para o BI final, que se
 
 Os dados são tratados com pyspark, que é uma ótima opção pois possui uma sintáxe simples e é ótimo para lidar com um grande volume de operações, pois é uma ferramenta que conta com a paralelização das suas tarefas e possui a contrução de um plano de execução, para otimizar a execução do código escrito pelo desenvolvedor.
 
-Nessa oficina utilizaremos a plataforma Google Colab para realizar os tratamentos necessários. Para facilitar a criação dos notebooks, é possível acessar um modelo pré-pronto e documentado no diretório `assets\notebook_base.ipynb`.
+Nessa oficina utilizaremos a plataforma Google Colab para realizar os tratamentos necessários. Para facilitar a criação dos notebooks, é possível acessar um modelo pré-pronto e documentado no diretório `assets/notebook_base.ipynb`.
 
 ## Criação do Dashboard
 
@@ -45,15 +45,15 @@ Para a criação do dashboard, é necessário apenas o download do Power BI e os
 
 - Abrir o Power BI;
 - Selecionar opção de criar relatório em branco;
-  ![Relatório em Branco](assets\criacao-bi\relatorio-em-branco.png)
+  ![Relatório em Branco](assets/criacao-bi/relatorio-em-branco.png)
 - Selecionar opção de Transformar Dados;
-  ![Selecionar Transformar Dados](assets\criacao-bi\selecionar-transformar-dados.png)
+  ![Selecionar Transformar Dados](assets/criacao-bi/selecionar-transformar-dados.png)
 - Clicar com o botão direito do mouse na aba de `Consultas` e ir na opção `Nova Consulta`. Em seguida, selecionar a opção `Texto/CSV` e por fim selecionar o arquivo que você deseja importar;
-  ![Transformar Dados](assets\criacao-bi\transformar-dados.png)
+  ![Transformar Dados](assets/criacao-bi/transformar-dados.png)
 - Fechar e aplicar as alterações;
-  ![Fechar e Aplicar](assets\criacao-bi\fechar-aplicar.png)
+  ![Fechar e Aplicar](assets/criacao-bi/fechar-aplicar.png)
 - Verificar os relacionamentos e as cardinalidades entre as tabelas;
-  ![Exibição Modelo Semântico](assets\criacao-bi\exibicao-modelo-semantico.png)
+  ![Exibição Modelo Semântico](assets/criacao-bi/exibicao-modelo-semantico.png)
 
 # Autores
 
