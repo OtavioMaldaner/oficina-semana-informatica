@@ -1,0 +1,179 @@
+﻿{
+    "name": "Custom",
+    "dataColors": [
+        "#237352",
+        "#f7cb0f",
+        "#d12a17",
+        "#c8338b",
+        "#5bb8ce",
+        "#3354a1",
+        "#5db130",
+        "#18563A"
+    ],
+    "textClasses": {
+        "label": {
+            "fontFace": "'Segoe UI', wf_segoe-ui_normal, helvetica, arial, sans-serif",
+            "fontSize": 10
+        },
+        "callout": {
+            "fontFace": "'Segoe UI', wf_segoe-ui_normal, helvetica, arial, sans-serif"
+        },
+        "title": {
+            "fontFace": "'Segoe UI Semibold', wf_segoe-ui_semibold, helvetica, arial, sans-serif"
+        }
+    },
+    "visualStyles": {
+        "*": {
+            "style": {
+                "yAxis": [
+                    {
+                        "showAxisTitle": false,
+                        "color": {
+                            "solid": {
+                                "color": "#737373"
+                            }
+                        }
+                    }
+                ],
+                "xAxis": [
+                    {
+                        "showAxisTitle": false,
+                        "color": {
+                            "solid": {
+                                "color": "#737373"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "barChart": {
+            "style": {
+                "xAxis": [
+                    {
+                        "show": false
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "labelPosition": "InsideEnd",
+                        "labelDisplayUnits": 0,
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "showBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "backgroundTransparency": 35
+                    }
+                ]
+            }
+        },
+        "columnChart": {
+            "style": {
+                "xAxis": [
+                    {
+                        "show": false
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "labelPosition": "InsideEnd",
+                        "labelDisplayUnits": 0,
+                        "labelOrientation": 1,
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "showBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "backgroundTransparency": 35
+                    }
+                ]
+            }
+        },
+        "stackedBarChart": {
+            "style": {
+                "xAxis": [
+                    {
+                        "show": false
+                    }
+                ],
+                "yAxis": [
+                    {
+                        "maxSize": 50
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "labelPosition": "InsideEnd",
+                        "labelDisplayUnits": 0,
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "stackedColumnChart": {
+            "style": {
+                "xAxis": [
+                    {
+                        "show": false
+                    }
+                ],
+                "labels": [
+                    {
+                        "show": true,
+                        "labelPosition": "InsideEnd",
+                        "labelDisplayUnits": 0,
+                        "labelOrientation": 1,
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        }
+                    }
+                ]
+            }
+        },
+        "funnel": {
+            "style": {
+                "labels": [
+                    {
+                        "show": true,
+                        "labelPosition": "InsideEnd",
+                        "labelDisplayUnits": 0,
+                        "color": {
+                            "solid": {
+                                "color": "#FFFFFF"
+                            }
+                        },
+                        "showBackground": true,
+                        "backgroundColor": {
+                            "solid": {
+                                "color": "#000000"
+                            }
+                        },
+                        "backgroundTransparency": 35
+                    }
+                ]
+            }
+        }
+    }
+}
